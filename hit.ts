@@ -1,6 +1,6 @@
 const magik = magikcraft.io;
 
-function hit(times = 9) {
+function hit(times = 15) {
      magik.doNTimes(function(){magik.infierno();}, times, 1000);
      magik.satio();
      magik.satio();
