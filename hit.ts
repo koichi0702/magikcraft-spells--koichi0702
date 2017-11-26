@@ -6,6 +6,7 @@ function hit(times = 15) {
      magik.satio();
      magik.satio();
 magik.satio();
+magik.satio();
 magik.declaro("elytra");
 
 }
