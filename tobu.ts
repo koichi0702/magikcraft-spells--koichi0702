@@ -1,5 +1,5 @@
 const magik = magikcraft.io;
 
 function tobu() {
-    magik.volare(10000);
+    magik.volare(100);
 }
