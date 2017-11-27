@@ -1,5 +1,6 @@
 const magik = magikcraft.io;
 
-function remember() {
+function m() {
      const thing = magik.exmemento();
-     magik.dixit(thing.toString
+     magik.dixit(thing.toString)
+}
