@@ -48,8 +48,6 @@ magik.satio();
 magik.satio();
 magik.satio();
 magik.satio();
-magik.satio(
-    magik.satio();
 magik.satio();
 magik.satio();
 magik.satio();
