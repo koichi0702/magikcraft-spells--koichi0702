@@ -1,5 +1,5 @@
 const magik = magikcraft.io;
 
-function toss() {
+function tobasu() {
      magik.iacta("tkc59");
 }
