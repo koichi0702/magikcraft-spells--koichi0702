@@ -1,7 +1,7 @@
 const magik = magikcraft.io;
 
-function tele() {
-    const there =	magik.memento.getItem();
+function tele(name) {
+    const there =	magik.memento.getItem(name);
     if (there){
         magik.ianuae(there);
     } else {
