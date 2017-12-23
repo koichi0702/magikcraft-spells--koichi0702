@@ -3,7 +3,7 @@ const magik = magikcraft.io;
 function arrow(repeats = 200, delay = 300) {
     magik.dixit('Arrow!');
     const sender = magik.getSender();
-    const arrow = magik.type("entity.poisonArrow").class;
+    const arrow = magik.type("entity.Arrow").class;
     
     const hurl = (thing) => () => sender.launchProjectile(thing)
 
