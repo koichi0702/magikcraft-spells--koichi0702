@@ -1,6 +1,6 @@
 const magik = magikcraft.io;
 
-function idou() {
+function i() {
 const there =	magik.memento.getItem();
 if (there);
 } else {
