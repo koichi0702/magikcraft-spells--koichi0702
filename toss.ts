@@ -1,5 +1,5 @@
 const magik = magikcraft.io;
 
-function toss(playername) {
-     magik.iacta(playername);
+function toss(tkc59) {
+     magik.iacta(tkc59);
 }
