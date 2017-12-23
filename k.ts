@@ -1,5 +1,5 @@
 const magik = magikcraft.io;
 
-function k(playerName) {
-    magik.auxilium(playerName);
+ function k (playerName);
+    magik.auxilium;(playerName);
 }
