@@ -1,4 +1,4 @@
-// filename: game
+ filename: game
 const magik = magikcraft.io;
  
 module.exports = function (T1) {
@@ -12,9 +12,9 @@ module.exports = function (T1) {
         const insulinAbsorptionRate = insulinOnBoard / 80 + 0.0025;
  
         if (insulinAbsorptionRate > 0) {
-            // magik.dixit("AbsorptionRate: " + insulinAbsorptionRate);
+             magik.dixit("AbsorptionRate: " + insulinAbsorptionRate);
         }
-        // do Insulin Absorption
+         do Insulin Absorption
         if (insulinOnBoard > 0) {
             const newInsulin = insulinOnBoard - insulinAbsorptionRate;
             if (newInsulin > 0) {
@@ -22,7 +22,7 @@ module.exports = function (T1) {
             } else {
                 T1.state.insulinOnBoard = 0;
             }
-            // do BGL Absorption
+             do BGL Absorption
             if (T1.state.bgl > 0) {
                 const bglAbsorbed = insulinAbsorptionRate * 0.8;
                 const newBGL = T1.state.bgl - bglAbsorbed;
@@ -35,11 +35,11 @@ module.exports = function (T1) {
             }
         }
  
-        // Do BGL increase
+         Do BGL increase
         if (T1.state.insulinOnBoard == 0) {
             T1.state.bgl += 0.1;
         }
-        // magik.dixit("Insulin: " + T1.state.insulinOnBoard);
+         magik.dixit("Insulin: " + T1.state.insulinOnBoard);
         const insulin = T1.state.insulinOnBoard;
         T1.bars.insulin.setProgress(insulin);
  
