@@ -1,4 +1,4 @@
 const magik = magikcraft.io;
-function hi() {
+function amazon() {
 magik.infierno();	
 }
