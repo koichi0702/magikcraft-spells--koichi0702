@@ -8,5 +8,5 @@ function arrow2() {
         p.launchProjectile(Arrow.class);
     }
 
-    magik.doNTimes(shoot, 30, 200);
+    magik.doNTimes(shoot, 30, 2000000);
 }    
