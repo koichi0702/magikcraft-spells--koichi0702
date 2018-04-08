@@ -1,6 +1,6 @@
 const magik = magikcraft.io;
 
-function zombie{
+function zombie(){
 
     const sender = magik.getSender();
     const EntityType = magik.type('entity.EntityType');
