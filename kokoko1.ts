@@ -1,5 +1,5 @@
 const magik = magikcraft.io;
 
 function rocket(){
-    magik.radiatum(Name);
+    magik.radiatum(name);
 }
